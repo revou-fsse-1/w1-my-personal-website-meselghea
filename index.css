@@ -139,14 +139,14 @@ body {
     line-height: var(--line-height);
     padding: 1rem 0;
   }
-  .AskQuestion {
+  .askquestion {
     max-width: 68.75rem;
     margin: auto;
     text-align: center;
     margin-top: 2.5rem;
   }
   
-  .AskQuestion-header {
+  .askquestion-header {
     margin-bottom: 1rem;
   }
   
