@@ -4,8 +4,8 @@ This is the simple personal website of **Mesel Ghea H N** made using HTML, CSS, 
 
 ## Links/URLs:
 
-- <meselghea-website.netlify.app>
-- Inspiration: <https://mhaidarhanif.com> <https://mw3schools.com> <https://mattfarley.ca>
+- <https://meselghea-website.netlify.app/>
+- Inspiration: <https://mhaidarhanif.com> , <https://mw3schools.com> & <https://mattfarley.ca>
 
 ## Pages
 
