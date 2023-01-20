@@ -8,8 +8,9 @@ body {
     color:#fe019a;
     background-color: #030303;
   }
-  @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
-
+  header {
+    padding: 3rem 0rem;
+  }
   /* Variables */
   :root {
     --font-family: "Roboto", sans-serf;
@@ -19,7 +20,7 @@ body {
     --bg-color: #050505;
     --primary-color: #fe019a;
     --secondary-color: #ff7235;
-    --primary-shadow: #09090b;
+    --primary-shadow: #4e4e54;
     --secondary-shadow: #a17a69;
     --bottom-margin: 0.5rem;
     --bottom-margin-2: 1rem;
@@ -37,7 +38,7 @@ body {
     justify-content: space-between;
     padding: 1.5rem 3.5rem;
     background-color: var(--bg-color);
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: #fe019a;
   }
   
   nav ul li {
@@ -121,25 +122,42 @@ body {
     margin: auto;
   }
   .hero img {
-    height: 37.5rem;
-    width: 80rem;
+    height: 35rem;
+    width: 50rem;
+    padding-bottom: 3rem;
+    padding-top: 4rem;
   }
-  
-  .bio {
-    width: 25rem;
-    padding: 0.625rem;
+  .knowme {
+    max-width: 30.0rem;
+    margin: auto;
+    padding-top: 3rem;
     border-radius: 6px;
-    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+    text-align: center;
+    border: 2px solid #fe019a
   }
-  .bio h1 {
+  .knowme h2 {
+    padding: 2rem;
+    border: none;
+    outline:none;
+    background: none;
     margin-bottom: auto;
+    padding-bottom: 2rem;
+    padding-top: 6rem;
   }
-  
-  .bio p {
+  .knowme h3 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+  }
+  .knowme p {
     line-height: var(--line-height);
-    padding: 1rem 0;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 6rem;
+
   }
   .askquestion {
+    padding: 2rem;
     max-width: 68.75rem;
     margin: auto;
     text-align: center;
@@ -150,15 +168,36 @@ body {
     margin-bottom: 1rem;
   }
   
-  .AskQuestion-wrapper img {
+  .askquestion-wrapper img {
     padding: 1.25rem;
   }
-  
-  .icon {
-    width: 11.875rem;
-    height: 11.25rem;
+  input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+  } 
+  textarea{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    text-align: center;
+  } 
+  input[type=submit] {
+    background-color: var(--primary-color);
+    border: none;
+    color: var(--bg-color);
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
   }
-  
+
   .footer {
     font-size: 0.8rem;
   }
