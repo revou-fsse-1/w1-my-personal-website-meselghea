@@ -171,7 +171,7 @@ body {
   .askquestion-wrapper img {
     padding: 1.25rem;
   }
-  input[type=text] {
+  input[type=text] , [type=email]  {
     width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
