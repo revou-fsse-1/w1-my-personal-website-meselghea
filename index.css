@@ -197,6 +197,17 @@ body {
     margin: 4px 2px;
     cursor: pointer;
   }
+  button {
+    background-color:var(--primary-color);
+    border-radius: 2rem;
+    border-style: dotted;
+    border-color: var(--secondary-shadow);
+    color: var(--bg-color);
+    padding-right: 1%;
+    padding-left: 1%;
+    cursor: pointer;
+    font-size: 2rem;
+  }
 
   .footer {
     font-size: 0.8rem;
